@@ -1,6 +1,5 @@
 body{
-    @font-face{
-        : 19px/1.5 Arial,
+    font: 19/1.5 Arial,
     Helvetica, sans-serif;
     padding: 0;
     margin: 0;
@@ -10,7 +9,7 @@ body{
 
 /*Global */
 .container{
-    width: 80%;
+    width: 80;
     margin: auto;
     overflow: hidden;
 }
@@ -21,20 +20,20 @@ ul{
 }
 
 .button_1{
-    height: 38px;
+    height: 38;
     background: #e7e727d3;
     border: 0;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-left: 20;
+    padding-right: 20;
     color: #e6e6fa
 }
 .dark {
-    padding:15px;
+    padding:15;
     background:#35424a;
     color:#cfcf16;
     padding-top :10px;
-    min-height: 70px;
-    border-bottom:darkorange 3px solid ;
+    min-height: 70;
+    border-bottom:darkorange 3 solid ;
 }
 
 header a{
