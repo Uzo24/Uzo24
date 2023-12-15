@@ -3,7 +3,7 @@ body{
     Helvetica, sans-serif;
     padding: 0;
     margin: 0;
-    background-image:url( "/deting image.jpg"); 
+    body { background-image:url( "/deting image.jpg"); } 
     background-color:#a0522d;
 }
 
@@ -67,9 +67,9 @@ header.highlight,header.current a{
 }
 
 /* showcase */
-img{
+deting{
     min-height: 90px;
-    background: url('image/IMG_20211211_131304_303.jpg') no-repeat;
+    background: url( "/deting image.jpg"); no-repeat;
     background-position: center;
     background-size: cover;
     text-align: center;
