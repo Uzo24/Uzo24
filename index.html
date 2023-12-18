@@ -28,35 +28,29 @@
                         <li class="current"><a href="index.html">Home</a></li>
                         <li><a href="about.html">About</a></li>
                         <li><a href="subject.html">Services</a></li>
-                    </ul>
-                </nav>
-            </div>
-        </header>
+                        <button onclick ="document.getElementById('idol').styl.display='block'">Login</button>
+                        <div id="idol" class="modal">
+                            <span onclick="document.getElemntById('idol').style.display='none'"
+                                class="close" title="close modal"> &times;</span>
+                            <form class="modal-content animate"
+                                action="/action_page.php">
+                                <div class="imgcontainer">
+                                    <img src="/download.jpeg" alt="download" class="download">
+                                </div>
+                                <div class="container">
+                                    <label for="uname">
+                                        <b>Username</b></label>
+                                    <input type="text" placeholder="Enter Username"
+                                        name="uname" required>
 
-        <section id="download">
-            <div class="container">
-                <h1>Affordable Professional Web Design</h1> 
-                <p>We can help you develop a good Web Design</p>
-            </div>
-        </section>
+                                    <button type="submit">Login</button>
+                                    <label>
+                                        <input type="checkbox" checked="checked"
+                                            name="remeber"> Remember me </label>
+                                </div>
 
-        <section id="newsletter">
-            <div class="container">
-                <h1>Subscribe To Our Newsletter</h1>
-                <form>
-                    <input type="email" placeholder="Enter Email..." required>
-                    <button type="submit" 
-
-                    class="button_1">Subscribe</button>
-                </form>
-
-            </div>
-        </section>
-   <section id="boxes">
-          
-    <div class="container">
-                <div class="box">
-               
+                                <div class="container">
+                                    </label>
                 
 <img src="/download.jpeg" style="float: left; margin-right: 50px;"
 width="150"
