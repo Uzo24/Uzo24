@@ -415,8 +415,8 @@ nav {
 .about-img R.jpeg {
     width: 20%;
     height: 20%;
-    border-radius: 5px;
-    object-fit: right;
+    border-radius: 3px;
+    object-fit: center;
 }
  
 .about-info p {
