@@ -272,9 +272,9 @@ article#main-col{
 ul#services li{
     list-style: none;
     padding: 20px;
-    border: #35424a;
+    border: #blue;
     margin-bottom: 5px;
-    background: #a0522d;
+    background: #gold;
 }
 /* Contact */
 ul#contact li{
