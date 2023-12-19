@@ -148,7 +148,7 @@ ul{
 
 .button_1{
     height: 38;
-    background: #yellow;
+    background: yellow;
     border: 0;
     padding-left: 20;
     padding-right: 20;
@@ -156,7 +156,7 @@ ul{
 }
 .dark {
     padding:15;
-    background:white;
+    background: yellow;
     color:white;
     padding-top :10px;
     min-height: 70;
@@ -164,10 +164,10 @@ ul{
 }
 
 header a{
-    color: #faf0e6;
+    color: yellow;
     text-decoration: none;
     text-transform: uppercase;
-    font-size: 16px;
+    font-size: 20px;
 }
 
 header li{
