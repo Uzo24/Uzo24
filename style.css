@@ -164,7 +164,7 @@ ul{
 }
 
 header a{
-    color:Black;
+    color:orange;
     text-decoration: none;
     text-transform: uppercase;
     font-size: 20px;
@@ -200,7 +200,7 @@ deting{
     background-position: center;
     background-size: cover;
     text-align: center;
-    color: orange;
+    color: light blue;
 }
 
 #showcase h1{
@@ -215,7 +215,7 @@ deting{
 /* Newslwtter */
 #newsletter{
     padding: 15px;
-    color:ffffff;
+    color:white;
     background:light blue;
 }
 
@@ -272,7 +272,7 @@ article#main-col{
 ul#services li{
     list-style: none;
     padding: 20px;
-    border: #cccccc solid 1px;
+    border: white solid 1px;
     margin-bottom: 5px;
     background: light blue;
 }
