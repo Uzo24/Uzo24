@@ -274,13 +274,13 @@ ul#services li{
     padding: 20px;
     border: #blue;
     margin-bottom: 5px;
-    background: #orange;
+    background: #e6e6e6;
 }
 /* Contact */
 ul#contact li{
     list-style: none;
     padding: 20px;
-    border: #orange solid 1px;
+    border: #ff8098f solid 1px;
     margin-bottom: 5px
 }
 
