@@ -152,19 +152,19 @@ ul{
     border: 0;
     padding-left: 20;
     padding-right: 20;
-    color: Turquoise
+    color: black
 }
 .dark {
     padding:15;
-    background: yellow;
-    color:orange;
+    background: Orange;
+    color:Turquoise;
     padding-top :10px;
     min-height: 70;
     border-bottom:darkorange 3 solid ;
 }
 
 header a{
-    color:Turquoise;
+    color:Black;
     text-decoration: none;
     text-transform: uppercase;
     font-size: 20px;
@@ -189,7 +189,7 @@ header nav{
 }
 
 header.highlight,header.current a{
-    color: #a0522d;
+    color: Turquoise;
     font-weight: bold;
 }
 
@@ -200,7 +200,7 @@ deting{
     background-position: center;
     background-size: cover;
     text-align: center;
-    color: #daa520;
+    color: orange;
 }
 
 #showcase h1{
@@ -215,8 +215,8 @@ deting{
 /* Newslwtter */
 #newsletter{
     padding: 15px;
-    color:black;
-    background:blue;
+    color:White;
+    background:Turquoise;
 }
 
 #newsletter h1{
@@ -274,13 +274,13 @@ ul#services li{
     padding: 20px;
     border: #blue;
     margin-bottom: 5px;
-    background: #gold;
+    background: #orange;
 }
 /* Contact */
 ul#contact li{
     list-style: none;
     padding: 20px;
-    border: #blue solid 1px;
+    border: #orange solid 1px;
     margin-bottom: 5px
 }
 
