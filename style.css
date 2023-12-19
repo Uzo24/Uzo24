@@ -184,7 +184,7 @@ header #branding h1{
     margin: 0;
 }
 header nav{
-    float: right;
+    float: center;
     margin-top: 20px;
 }
 
