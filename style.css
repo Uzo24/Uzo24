@@ -15,7 +15,7 @@ body{
   left: 50%;
   transform: translate(-50%, -50%);
   width: 29vw;
-  background: white;
+  background: blue;
   border-radius: 10px;
 }
 
@@ -148,7 +148,7 @@ ul{
 
 .button_1{
     height: 38;
-    background: #e7e727d3;
+    background: #yellow;
     border: 0;
     padding-left: 20;
     padding-right: 20;
