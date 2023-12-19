@@ -131,7 +131,7 @@ body{
     padding: 0;
     margin: 0;
     background-image:url( "/deting image.jpg");
-    background-color:#a0522d;
+    background-color:blue;
 }
 
 /*Global */
@@ -152,12 +152,12 @@ ul{
     border: 0;
     padding-left: 20;
     padding-right: 20;
-    color: #e6e6fa
+    color: yellow
 }
 .dark {
     padding:15;
-    background:#35424a;
-    color:#cfcf16;
+    background:white;
+    color:white;
     padding-top :10px;
     min-height: 70;
     border-bottom:darkorange 3 solid ;
