@@ -131,7 +131,7 @@ body{
     padding: 0;
     margin: 0;
     background-image:url( "/deting image.jpg");
-    background-color:blue;
+    background-color:white;
 }
 
 /*Global */
@@ -148,11 +148,11 @@ ul{
 
 .button_1{
     height: 38;
-    background: yellow;
+    background: blue;
     border: 0;
     padding-left: 20;
     padding-right: 20;
-    color: yellow
+    color: black
 }
 .dark {
     padding:15;
