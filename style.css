@@ -1,569 +1,178 @@
-body{
+@import url("https://fonts.googleapis.com/css2?family=Sriracha&display=swap");
+
+body {
   margin: 0;
-  padding: 0;
-  font-family: Roboto;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background: linear-gradient(120deg, #007bff, #d0314c);
-  height: 50vh;
-  overflow: hidden;
-}
-
-.center{
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  width: 29vw;
-  background: blue;
-  border-radius: 10px;
-}
-
-.center h1{
-  text-align: center;
-  padding: 0 0 20px 0;
-  border-bottom: 1px solid silver;
-}
-
-.center form{
-  padding: 0 40px;
   box-sizing: border-box;
 }
 
-form .txt_field{
-  position: relative;
-  border-bottom: 2px solid #adadad;
-  margin: 30px 0;
+/* CSS for header */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f5f5f5;
 }
 
-.txt_field input{
-  width: 100%;
-  padding: 0 5px;
-  height: 40px;
-  font-size: 16px;
-  border: none;
-  background: none;
-  outline: none;
-}
-
-.txt_field label{
-  position: absolute;
-  top: 50%;
-  left: 5px;
-  color: #adadad;
-  transform: translateY(-50%);
-  font-size: 16px;
-  pointer-events: none;
-}
-
-.txt_field span::before{
-  content: '';
-  position: absolute;
-  top: 40px;
-  left: 0;
-  width: 0px;
-  height: 2px;
-  background: #2691d9;
-  transition: .5s;
-}
-
-.txt_field input:focus ~ label,
-.txt_field input:valid ~ label{
-  top: -5px;
-  color: #2691d9;
-}
-
-.txt_field input:focus ~ span::before,
-.txt_field input:Valid ~ span::before{
-  width: 100%;
-}
-
-.pass{
-  margin: -5px 0 20px 5px;
-  color: #a6a6a6;
-  cursor: pointer;
-}
-
-.pass:hover{
-  text-decoration: underline;
-}
-
-input[type="Submit"]{
-  width: 100%;
-  height: 50px;
-  border: 1px solid;
-  border-radius: 25px;
-  font-size: 18px;
-  font-weight: 700;
-  cursor: pointer;
-
-}
-
-input[type="Submit"]:hover{
-  background: #2691d9;
-  color: #e9f4fb;
-  transition: .5s;
-}
-
-.signup_link{
-  margin: 30px 0;
-  text-align: center;
-  font-size: 16px;
-  color: #666666;
-}
-
-.signup_link a{
-  color: #2691d9;
+.header .logo {
+  font-size: 25px;
+  font-family: "Sriracha", cursive;
+  color: #000;
   text-decoration: none;
+  margin-left: 30px;
 }
 
-.signup_link a:hover{
-  text-decoration: underline;
+.nav-items {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #f5f5f5;
+  margin-right: 20px;
 }
 
-.HomeAbout{
-  width: 100vw;
-  height: 25vh;
-}
-body{
-    font: 19/1.5 Arial,
-    Helvetica, sans-serif;
-    padding: 0;
-    margin: 0;
-    background-image:url( "/deting image.jpg");
-    background-color:light blue;
+.nav-items a {
+  text-decoration: none;
+  color: #000;
+  padding: 35px 20px;
 }
 
-/*Global */
-.container{
-    width: 80;
-    margin: auto;
-    overflow: hidden;
+/* CSS for main element */
+.intro {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 520px;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.5) 100%), url("https://images.unsplash.com/photo-1587620962725-abab7fe55159?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1031&q=80");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
-ul{
-    margin: 0;
-    padding: 0;
+.intro h1 {
+  font-family: sans-serif;
+  font-size: 60px;
+  color: #fff;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin: 0;
 }
 
-.button_1{
-    height: 38;
-    background:light blue;
-    border: 0;
-    padding-left: 20;
-    padding-right: 20;
-    color: black
-}
-.white {
-    padding:15;
-    background:light blue;
-    color:#ffffff;
-    padding-top :10px;
-    min-height: 70;
-    border-bottom:darkorange 3 solid ;
+.intro p {
+  font-size: 20px;
+  color: #d1d1d1;
+  text-transform: uppercase;
+  margin: 20px 0;
 }
 
-header a{
-    color:orange;
-    text-decoration: none;
-    text-transform: uppercase;
-    font-size: 20px;
+.intro button {
+  background-color: #5edaf0;
+  color: #000;
+  padding: 10px 25px;
+  border: none;
+  border-radius: 5px;
+  font-size: 20px;
+  font-weight: bold;
+  cursor: pointer;
+  box-shadow: 0px 0px 20px rgba(255, 255, 255, 0.4)
 }
 
-header li{
-    float: left;
-    display: inline;
-    padding: 0 20px 0 20px;
-
-}
-header #brandind h1{
- float: left;   
+.achievements {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 40px 80px;
 }
 
-header #branding h1{
-    margin: 0;
-}
-header nav{
-    float: right;
-    margin-top: 20px;
-}
-
-header.highlight,header.current a{
-    color: white;
-    font-weight: bold;
+.achievements .work {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0 40px;
 }
 
-/* showcase */
-deting{
-    min-height: 90px;
-    background: url( "/deting image.jpg"); no-repeat;
-    background-position: center;
-    background-size: cover;
-    text-align: center;
-    color: light blue;
+.achievements .work i {
+  width: fit-content;
+  font-size: 50px;
+  color: #333333;
+  border-radius: 50%;
+  border: 2px solid #333333;
+  padding: 12px;
 }
 
-#showcase h1{
-    margin-top: 400px;
-    font-size: 55px;
-   margin-bottom: 100px;
-}
-#showcase p{
-    font-size: 20px
+.achievements .work .work-heading {
+  font-size: 20px;
+  color: #333333;
+  text-transform: uppercase;
+  margin: 10px 0;
 }
 
-/* Newslwtter */
-#newsletter{
-    padding: 15px;
-    color:white;
-    background:light blue;
+.achievements .work .work-text {
+  font-size: 15px;
+  color: #585858;
+  margin: 10px 0;
 }
 
-#newsletter h1{
-    float: left;
+.about-me {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px 80px;
+  border-top: 2px solid #eeeeee;
 }
 
-#newsletter form {
-    float: right;
-    margin-top: 15px;
+.about-me img {
+  width: 500px;
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
 }
 
-#newsletter input[type="email"]{
-    padding: 4px;
-    height: 25px;
-    width: 250px;
+.about-me-text h2 {
+  font-size: 30px;
+  color: #333333;
+  text-transform: uppercase;
+  margin: 0;
 }
 
-/* Boxes */
-#boxes{
-    margin-top: 30px;
+.about-me-text p {
+  font-size: 15px;
+  color: #585858;
+  margin: 10px 0;
 }
 
-#boxes .box{
-    float: left;
-    text-align: center;
-    width: 30%;
-    padding: 10px;
+/* CSS for footer */
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #302f49;
+  padding: 40px 80px;
 }
 
-#boxes .box img{
-    width: 90px;
+.footer .copy {
+  color: #fff;
 }
 
-/* Sidebar */
-aside#sidebar{
-    float: right;
-    width: 30%;
-    margin-top: 10px;
+.bottom-links {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 40px 0;
 }
 
-aside#sidebar .quote input,aside#sidebar .quote textarea{
-    width: 900%;
-    padding: 5px;
+.bottom-links .links {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0 40px;
 }
 
-/* Main-col */
-article#main-col{
-    float: left;
-    width: 65%;
-}
-
-/* Services */
-ul#services li{
-    list-style: none;
-    padding: 20px;
-    border: white solid 1px;
-    margin-bottom: 5px;
-    background: light blue;
-}
-/* Contact */
-ul#contact li{
-    list-style: none;
-    padding: 20px;
-    border: #ff8098f solid 1px;
-    margin-bottom: 5px
-}
-
-footer{
-    padding: 20px;
-    margin-top: 20px;
-    color: #ffffff;
-    background-color:light blue;
-    text-align: center;
-}
-
-/* Media Queries */
-@media(max-width: 900px) {
-    header #branding,
-    header nav,
-    header nav li,
-    #newsletter h1,
-    #newsletter form,
-    #boxes .box,
-    article#main-col,
-    aside#sidebar{
-        float: none;
-        text-align: center;
-        width: 100%;
-    }
-
-    header{
-        padding-bottom: 20px;
-    }
-
-    #showcase h1{
-        margin-top: 40px;
-    }
-
-    #newsletter form
-    input[type="email"], .quote
-    input, .quote textarea{
-        width: 100%;
-        margin-bottom: 5px;
-    }
-}
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-/* Global Styles */
-body {
-    font-family: Arial, sans-serif;
-}
-/* Header */
-header {
-    background-color: white;
-    color: rgb(0, 0, 0);
-    padding: 10px 0;
-    position: fixed;
-    width: 100%;
-    z-index: 100;
-    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
-}
- 
-nav {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin: 5px auto;
-    padding: 0 20px;
-}
- 
-.logo {
-    font-size: 1.5rem;
-    font-weight: bold;
-    color: #40b736;
-}
- 
-.nav-links {
-    list-style: none;
-    display: flex;
-}
- 
-.nav-links li {
-    margin-right: 20px;
-}
- 
-.nav-links a {
-    color: rgb(0, 0, 0);
-    padding: 10px;
-    font-weight: bold;
-    text-decoration: none;
-}
- 
-.nav-links a:hover {
-    background-color: #40b736;
-    border-radius: 4px;
-    color: white;
-}
- 
-/* About Section */
-.about {
-    background: rgb(224, 251, 222);
-    background: linear-gradient(360deg, rgb(245, 255, 245) 0%, rgb(173, 252, 163) 100%);
-    padding: 100px 0 20px 0;
-    text-align: center;
-}
- 
-.about h1 {
-    font-size: 2.5rem;
-    margin-bottom: 20px;
-}
- 
-.about p {
-    font-size: 1rem;
-    color: #323030;
-    max-width: 800px;
-    margin: 0 auto;
-}
- 
-.about-info {
-    margin: 2rem 2rem;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: left;
-}
- 
-.about-img {
-    width: 20rem;
-    height: 20rem;
- 
-}
- 
-.about-img R.jpeg {
-    width: 10%;
-    height: 10%;
-    border-radius: 3px;
-    object-fit: center;
-}
- 
-.about-info p {
-    font-size: 1.3rem;
-    margin: 0 2rem;
-    text-align: justify;
-}
- 
-button {
-    border: none;
-    outline: 0;
-    padding: 10px;
-    margin: 2rem;
-    font-size: 1rem;
-    color: white;
-    background-color: #40b736;
-    text-align: center;
-    cursor: pointer;
-    width: 15rem;
-    border-radius: 4px;
-}
- 
-button:hover {
-    background-color: #1f9405;
-}
- 
-/* Team Section */
-.team {
-    padding: 30px 0;
-    text-align: center;
-}
- 
-.team h1 {
-    font-size: 2.5rem;
-    margin-bottom: 20px;
-}
- 
-.team-cards {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 15px;
-    margin-top: 20px;
-}
- 
-.card {
-    background-color: white;
-    border-radius: 6px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
-    overflow: hidden;
-    transition: transform 0.2s, box-shadow 0.2s;
-    width: 18rem;
-    height: 25rem;
-    margin-top: 10px;
-}
- 
-.card:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.5);
-}
- 
-.card-img {
-    width: 18rem;
-    height: 12rem;
-}
- 
-.card-img IMG{
-    width: 70%;
-    height: 70%;
-    object-fit: fill;
-}
- 
-.card-info button {
-    margin: 2rem 1rem;
-}
- 
-.card-name {
-    font-size: 2rem;
-    margin: 10px 0;
-}
- 
-.card-role {
-    font-size: 1rem;
-    color: #888;
-    margin: 5px 0;
-}
- 
-.card-email {
-    font-size: 1rem;
-    color: #555;
-}
- 
-/* Footer */
-footer {
-    background-color: #222;
-    color: white;
-    text-align: center;
-    padding: 20px 0;
-}
- 
-@media (max-width: 768px) {
-    nav {
-        display: block;
-    }
- 
-    .logo {
-        text-align: center;
-    }
- 
-    .nav-links {
-        margin-top: 1rem;
-        justify-content: space-between;
-    }
- 
-    .nav-links li {
-        margin-right: 0;
-    }
- 
-    .about h1 {
-        font-size: 2rem;
-    }
- 
-    .about p {
-        font-size: 0.9rem;
-    }
- 
-    .about-info {
-        flex-direction: column;
-        text-align: center;
-    }
- 
-    .about-img {
-        width: 60%;
-        height: 60%;
-        margin-bottom: 1rem;
-    }
- 
-    .about-info p {
-        margin: 1rem 2rem;
-    }
- 
-    .about-info button {
-        margin: 1rem 2rem;
-        width: 10rem;
-    }
- 
-    .team {
-        margin: 0 1rem;
-    }
+.bottom-links .links span {
+  font-size: 20px;
+  color: #fff;
+  text-transform: uppercase;
+  margin: 10px 0;
 }
