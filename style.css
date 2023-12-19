@@ -131,7 +131,7 @@ body{
     padding: 0;
     margin: 0;
     background-image:url( "/deting image.jpg");
-    background-color:orange;
+    background-color:light blue;
 }
 
 /*Global */
@@ -148,7 +148,7 @@ ul{
 
 .button_1{
     height: 38;
-    background: Turquoise;
+    background:light blue;
     border: 0;
     padding-left: 20;
     padding-right: 20;
@@ -156,8 +156,8 @@ ul{
 }
 .dark {
     padding:15;
-    background: Orange;
-    color:Turquoise;
+    background:light blue;
+    color:#ffffff;
     padding-top :10px;
     min-height: 70;
     border-bottom:darkorange 3 solid ;
@@ -189,7 +189,7 @@ header nav{
 }
 
 header.highlight,header.current a{
-    color: Turquoise;
+    color: white;
     font-weight: bold;
 }
 
