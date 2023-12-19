@@ -416,7 +416,7 @@ nav {
     width: 20%;
     height: 20%;
     border-radius: 5px;
-    object-fit: contain;
+    object-fit: right;
 }
  
 .about-info p {
