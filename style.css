@@ -413,8 +413,8 @@ nav {
 }
  
 .about-img R.jpeg {
-    width: 100%;
-    height: 100%;
+    width: 20%;
+    height: 20%;
     border-radius: 5px;
     object-fit: contain;
 }
