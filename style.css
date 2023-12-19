@@ -215,8 +215,8 @@ deting{
 /* Newslwtter */
 #newsletter{
     padding: 15px;
-    color:White;
-    background:Turquoise;
+    color:ffffff;
+    background:light blue;
 }
 
 #newsletter h1{
@@ -272,9 +272,9 @@ article#main-col{
 ul#services li{
     list-style: none;
     padding: 20px;
-    border: #blue;
+    border: #cccccc solid 1px;
     margin-bottom: 5px;
-    background: #e6e6e6;
+    background: light blue;
 }
 /* Contact */
 ul#contact li{
