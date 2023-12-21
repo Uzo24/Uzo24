@@ -3,13 +3,13 @@ body{
     Helvetica, sans-serif;
     padding: 0;
     margin: 0;
-    background-image: url('/cdey.jpeg');
+    background-image: url('/certe.png');
     background-color:#a0522d;
 }
 
 /*Global */
 .container{
-    width: 80%;
+    width: 30%;
     margin: auto;
     overflow: hidden;
 }
@@ -21,32 +21,32 @@ ul{
 
 .button_1{
     height: 38px;
-    background: #e7e727d3;
+    background: ##2e011bd3;;
     border: 0;
     padding-left: 20px;
     padding-right: 20px;
-    color: #e6e6fa
+    color: yellow;
 }
 .dark {
     padding:15px;
-    background:#35424a;
-    color:#cfcf16;
+    background:brown;
+    color:blue;
     padding-top :10px;
     min-height: 70px;
     border-bottom:darkorange 3px solid ;
 }
 
 header a{
-    color: #faf0e6;
-    text-decoration: none;
+    color: yellow;
+    text-decoration: 1ch(lightness chroma hue);
     text-transform: uppercase;
-    font-size: 16px;
+    font-size: 19px;
 }
 
 header li{
     float: left;
     display: inline;
-    padding: 0 20px 0 20px;
+    padding: 0 10px 0 10px;
 
 }
 header #brandind h1{
@@ -54,7 +54,7 @@ header #brandind h1{
 }
 
 header #branding h1{
-    margin: 0;
+    margin: 12;
 }
 header nav{
     float: right;
@@ -62,7 +62,7 @@ header nav{
 }
 
 header.highlight,header.current a{
-    color: #a0522d;
+    color: light blue;
     font-weight: bold;
 }
 
@@ -71,25 +71,24 @@ img{
     min-height: 90px;
     background: url('/cdey.jpeg') no-repeat;
     background-position: center;
-    background-size: ;
+    background-size:center ;
     text-align: center;
-    color: #daa520;
+    color: blue;
 }
 
 #showcase h1{
-    margin-top: 400px;
-    font-size: 55px;
-   margin-bottom: 100px;
+    margin-top: 20px;
+    font-size: 35px;
+   margin-bottom: 1000px;
 }
 #showcase p{
-    font-size: 20px
+    font-size: 30px
 }
 
 /* Newslwtter */
 #newsletter{
-    padding: 15px;
+    padding: 79px;
     color:#ffffff;
-    background:#ebf612;
 }
 
 #newsletter h1{
@@ -144,9 +143,9 @@ article#main-col{
 /* Services */
 ul#services li{
     list-style: none;
-    padding: 20px;
+    padding: 30px;
     border: #35424a;
-    margin-bottom: 5px;
+    margin-bottom: 25px;
     background: #a0522d;
 }
 /* Contact */
@@ -158,8 +157,8 @@ ul#contact li{
 }
 
 footer{
-    padding: 20px;
-    margin-top: 20px;
+    padding: 10px;
+    margin-top: 1000px;
     color: #fbfb0edd;
     background-color: #40474b;
     text-align: center;
