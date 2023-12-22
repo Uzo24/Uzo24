@@ -3,7 +3,7 @@ body{
     Helvetica, sans-serif;
     padding: 0;
     margin: 0;
-    background-image: url('/gt.jpeg');
+    background-image: url('/deting image.jpeg');
     background-color:#a0522d;
 }
 
@@ -69,7 +69,7 @@ header.highlight,header.current a{
 /* showcase */
 img{
     min-height: 20px;
-    background: url('/gt.jpeg');
+    background: url('/deting image.jpeg');
     background-repeat: no-repeat;
     background-position: center;
     background-size:center ;
