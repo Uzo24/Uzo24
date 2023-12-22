@@ -69,7 +69,7 @@ header.highlight,header.current a{
 /* showcase */
 img{
     min-height: 20px;
-    background: url('/gt.jpeg') repeat-x;
+    background: url('/gt.jpeg') repeat-y;
     background-position: center;
     background-size:center ;
     text-align: center;
