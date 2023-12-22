@@ -3,7 +3,7 @@ body{
     Helvetica, sans-serif;
     padding: 0;
     margin: 0;
-    background-image: url('/uip.jpg');
+    background-image: url('/deting.jpeg');
     background-color:#a0522d;
 }
 
@@ -69,7 +69,7 @@ header.highlight,header.current a{
 /* showcase */
 img{
     min-height: 90px;
-    background: url('/uip.jpg') repeat-x;
+    background: url('/deting.jpeg') repeat-x;
     background-position: center;
     background-size:center ;
     text-align: center;
