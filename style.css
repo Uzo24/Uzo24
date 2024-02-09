@@ -3,7 +3,7 @@ body{
     Helvetica, sans-serif;
     padding: 0;
     margin: 0;
-    background-image: url('/deting image.jpeg');
+    background-image: url('/Dwer.jpeg');
 
 }
 
@@ -67,9 +67,9 @@ header.highlight,header.current a{
 }
 
 /* showcase */
-img{
+Dwer{
     min-height: 20px;
-    background: url('/deting image.jpeg');
+    background: url('/Dwer image.jpeg');
     background-repeat: no-repeat;
     background-position: center;
     background-size:center ;
